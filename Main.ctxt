@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=java.util.ArrayList\ getPrimes(int)
+comment1.params=disk
+comment1.target=java.math.BigInteger\ createSavedPoleInformation(java.util.ArrayList)
+comment2.params=pole
+comment2.target=java.util.ArrayList\ readSavedPoleInformation(java.math.BigInteger)
+comment3.params=pole1\ pole2\ pole3
+comment3.target=void\ checkVictory(java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment5.params=pole\ offset\ index
+comment5.target=void\ printPoleLine(java.util.ArrayList,\ int,\ int)
+comment6.params=pole1\ pole2\ pole3
+comment6.target=void\ printPoles(java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+comment7.params=a\ b
+comment7.target=boolean\ distinctSets(java.util.HashSet,\ java.util.HashSet)
+numComments=8
