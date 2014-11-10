@@ -10,6 +10,6 @@ public class KeyTesting
             int key = KeyEvent.KEY_TYPED;
             System.out.print(key);
         }
-        Thread.sleep(100);
+        
     }
 }
