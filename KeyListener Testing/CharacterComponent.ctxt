@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CharacterComponent()
+comment1.params=key
+comment1.target=void\ setDirection(char)
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+numComments=3
