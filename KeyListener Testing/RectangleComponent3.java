@@ -18,7 +18,8 @@ public class RectangleComponent3 extends JComponent
    public RectangleComponent3()
    {  
       // The rectangle that the paintComponent method draws 
-      box = new Rectangle(BOX_X, BOX_Y, BOX_WIDTH, BOX_HEIGHT);         
+      box = new Rectangle(BOX_X, BOX_Y, BOX_WIDTH, BOX_HEIGHT);    
+      this.setFocusable(true);
    }
 
    public void paintComponent(Graphics g)
