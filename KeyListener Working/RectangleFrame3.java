@@ -92,3 +92,5 @@ public class RectangleFrame3 extends JFrame
       
    }
 } 
+
+//Nic is the best programmer evar!

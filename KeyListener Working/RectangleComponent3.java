@@ -52,3 +52,5 @@ public class RectangleComponent3 extends JComponent
       repaint();      
    }
 }
+
+//Everyone will obey Nic's mighty programming powers!
