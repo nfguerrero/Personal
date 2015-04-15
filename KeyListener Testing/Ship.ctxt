@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=CharacterComponent()
+comment0.params=x\ y
+comment0.target=Ship(int,\ int)
 comment1.params=g
-comment1.target=void\ paintComponent(java.awt.Graphics)
+comment1.target=void\ draw(java.awt.Graphics)
 comment2.params=
 comment2.target=void\ moveLeft()
 comment3.params=

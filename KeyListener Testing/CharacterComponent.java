@@ -1,44 +1,41 @@
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JComponent;
-import java.awt.event.KeyListener;
-import java.awt.event.KeyEvent;
 
 public class CharacterComponent extends JComponent
 {
+    //frame width:  784
+    //frame height: 562
+    //ship width: 34
+    //ship height: 34
+    //ship reset coors: (x, y) = (375, 528)
     private int x = 0;
     private int y = 0;
     
+    private Ship ship;
+    
     public CharacterComponent()
     {
-        KeyPressListener listener = new KeyPressListener();
-        this.addKeyListener(listener);
-    }
-    
-    public void setDirection(char key)
-    {
-        this.x = 400;
-        this.y = 300;
-        
-        this.repaint();
+        ship = new Ship(375, 528);
+        this.setFocusable(true);
     }
     
     public void paintComponent(Graphics g)
     {
-        Graphics2D g2 = (Graphics2D) g;
+        this.ship.draw(g);
         
-        Dot dot = new Dot(this.x, this.y);
-        dot.draw(g2);
+        requestFocusInWindow();
     }
     
-    public class KeyPressListener implements KeyListener
+    public void moveLeft()
     {
-        public void keyTyped(KeyEvent event)
-        {
-            setDirection(event.getKeyChar());
-        }
-        
-        public void keyPressed(KeyEvent event){}
-        public void keyReleased(KeyEvent event){}
+        ship.moveLeft();
+        this.repaint();
+    }
+    
+    public void moveRight()
+    {
+        ship.moveRight();
+        this.repaint();
     }
 }

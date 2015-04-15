@@ -27,4 +27,10 @@ public class Dot
         g2.draw(dot);
         g2.fill(dot);
     }
+    
+    public void moveBy(int x, int y)
+    {
+        this.x += x;
+        this.y += y;
+    }
 }
