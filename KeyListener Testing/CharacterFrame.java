@@ -56,8 +56,5 @@ public class CharacterFrame extends JFrame
       this.setTitle("Character Testing");      
       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       this.setVisible(true);
-      
-      scene.requestFocusInWindow();
-      
    }
 } 
